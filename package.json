@@ -1,0 +1,26 @@
+{
+  "name": "myApp",
+  "version": "0.0.3",
+  "description": "myApp description",
+  "author": "Yinon Harush <yinonharush@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "npm install",
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "latest",
+    "cookie-parser": "latest",
+    "debug": "latest",
+    "express": "latest",
+    "jade": "latest",
+    "morgan": "latest",
+    "node-sass-middleware": "latest",
+    "serve-favicon": "latest"
+  },
+  "engines": {
+    "node": ">=0.12.7",
+    "npm": ">=2.11.3"
+  }
+}
